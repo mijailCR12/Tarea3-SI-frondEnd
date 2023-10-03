@@ -5,17 +5,18 @@
      <h2>{{title}}</h2>
      <table><thead>
        <tr>
-         <th>Title</th>
-        <th>Autor</th>
-        <th>Publisher</th>
-        <th>Edition</th>publisher     <th class="text-center">Actions</th>
+         <th>publisher</th>
+        <th>country</th>
+        <th>founded</th>
+        <th>genere</th>     
+        <th class="text-center">Actions</th>
 	   </tr>
        </thead><tbody>
        <tr v-for='publisher in publishers'>
-       <td>{{publisher.title}}</td>
-       <td>{{publisher.author}}</td>
        <td>{{publisher.publisher}}</td>
-       <td>{{publisher.edition}}</td>
+       <td>{{publisher.country}}</td>
+       <td>{{publisher.founded}}</td>
+       <td>{{publisher.genere}}</td>
        <td>
        <router-link class="button"
          :to="'/publisher/show/'+publisher._id">Show</router-link>

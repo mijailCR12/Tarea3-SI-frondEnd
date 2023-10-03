@@ -13,21 +13,21 @@
      </div>
      <div class="row">
       <div class="six columns">
-       <label for="publisherInput">nationality</label>
+       <label for="nationalityInput">nationality</label>
        <input class="u-full-width" type="text"
           v-model="author.nationality">
       </div>
      </div>
      <div class="row">
       <div class="six columns">
-       <label for="copyrightInput">birth_year</label>
+       <label for="birth_yearInput">birth_year</label>
        <input class="u-full-width" type="number"
-          v-model="author.copyright">
+          v-model="author.birth_year">
       </div>
       <div class="six columns">
-       <label for="languageInput">fields</label>
+       <label for="fieldsInput">fields</label>
        <input class="u-full-width" type="text"
-         v-model="author.language">
+         v-model="author.fields">
       </div>
      </div>
      <div class="row">
